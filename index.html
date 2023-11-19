@@ -1,0 +1,116 @@
+<script src="https://kit.fontawesome.com/24e2ae1115.js" crossorigin="anonymous"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+    <body>
+
+        <h1 style="padding-left: 30px ; text-align: center;">
+            Budget App
+        </h1>
+
+        <br>
+        <br>
+
+        <div class="headers">
+            <div class="box1">
+                <h2 class="h2Padding">
+                    Enter your budget: 
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <input type="number" id="budgetLimit" onfocus="this.value=''" class="budgetInput">
+
+                    <br>
+                    <br>
+                    <br>
+                    
+                    <button id="budgetCalc" class="calcButton"><b>set budget</b></button>
+                </h2>
+            </div>
+
+            <div class="box2">
+                <h2 class="h2Padding">
+                    Expenses:
+
+                    <br>
+                    <br>
+
+                    <input type="text" id="expenseName" onfocus="this.value=''" class="expenseInput" placeholder="name of your expense">
+
+                    <br>
+                    <br>
+
+                    <input type="number" id="expenseAmount" onfocus="this.value=''" class="expenseInput" placeholder="enter expense amount">
+
+                    <br>
+                    <br>
+
+                    <button id="expenseCalc" class="calcButton" style="border: 2.5px solid rgb(255,255,255);"><b>Add New</b></button>
+                </h2>
+            </div>
+        </div>
+        
+            <br>
+            <br>
+
+            <div class="headers">         
+                <table bordercolor="white" id="table">
+                    <tr class="tableHeader">
+                      <th>Budget</th>
+                      <th>Expenses</th>
+                      <th>Balance</th>
+                    </tr>
+                    <tr id='allContainer'>
+                    </tr>
+                  </table>
+            </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <div >
+            <div class="listHeader" class="nameList" class="alignList">
+                <header class="headerList"  class="headerName">
+                    name
+                </header>
+
+                <div id="expenseNameListcontainer" >
+                    <p id="expenseNameList">
+                        
+                    </p>
+                </div>
+            </div>
+           
+            <div class="listHeader" class="amountList">
+                <header class="headerList" class="headerAmount">
+                    amount
+                </header>
+
+                <div id="amountListcontainer" >
+                    <p id="expenseAmountList" >
+                    
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Comfortaa&family=Scada:wght@700&display=swap');
+
+body{
+    font-family: 'Comfortaa', cursive;
+    padding-left: 80px;
+    padding-top: 30px;
+
+    background-color: #151616;
+    font-family:"Noto Sans", sans-serif;
+    color: #ffffff;
+    
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+th{
+    min-width: 300px;
+}
+tr{
+    text-align: center;
+    align-items: auto;
+    margin-right: none;
+}
+
+td{
+    min-width: 300px;
+    font-size: 21px;
+}
+
+.headers{
+ display: inline-flex;
+}
+
+.listHeader{
+    display: inline-block;
+    list-style-type: none;
+    min-width: 400px;
+}
+
+.namelist{
+    border-right: 60px;
+    margin-right: 60px;
+    min-width: 200px;
+
+    font-size: 5px;
+    font-weight: bold;
+    
+}
+
+.amountList{
+    border-left: 60px;
+    margin-left: 60px;
+    min-width: 200px;
+
+    font-size: 5px;
+    font-weight: bold;
+    
+}
+
+.headerList{
+    font-size: 30px;
+    align-items: center;
+
+}
+
+.tableHeader{
+    font-size: 23px;
+}
+
+.box1{
+    border: 2.5px solid rgb(255,255,255);
+    display: flex;
+    width: 400px;
+    height: 250px;
+    margin-right: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 
+    rgba(0, 0, 0, 0.3);
+}
+
+.box2{
+    border: 2.5px solid rgb(255,255,255);
+    display: flex;
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin-left: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 
+    rgba(0, 0, 0, 0.3);
+}
+
+.box3{
+    border: 2.5px solid rgb(255,255,255);
+    display: flex;
+    float: left;
+    width: 800px;
+    height: 125px;
+    margin-left: 22%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 
+    rgba(0, 0, 0, 0.3);
+
+    align-self: center;
+
+    text-align: center;
+    align-items: top;
+    justify-content: center;
+}
+
+.allContainer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2Padding{
+    padding-left: 15px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.budgetInput{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    min-width: 350px;
+    width: 350px;
+    min-height: 20px;
+    border: 2.5px solid rgb(255,255,255);
+    border-radius: 4px;
+}
+
+.expenseInput{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    min-width: 350px;
+    width: 350px;
+    min-height: 20px;
+    border: 2.5px solid rgb(255,255,255);
+    border-radius: 4px;
+}
+
+.calcButton{
+    border: 2.5px solid rgb(255,255,255);
+    min-width: 72px;
+    min-height: 40px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width:72px;
+    max-height: 40px;
+    border-radius: 5px;
+    font-size: 11px;
+    transition: 130ms;
+}
+
+.calcButton:hover{
+    min-width: 74px;
+    min-height: 44px;
+    font-size: 13px;
+    transition: 130ms;
+}
